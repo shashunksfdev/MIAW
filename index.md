@@ -5,7 +5,10 @@
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
-			embeddedservice_bootstrap.init(
+			  embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({ "pageUrl": window.location.href });
+
+
+   				embeddedservice_bootstrap.init(
 				'00DVE000000QejN',
 				'GitHub_Chat_Support',
 				'https://bunn--qa.sandbox.my.site.com/ESWGitHubChatSupport1750717571736',
