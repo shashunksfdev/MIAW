@@ -6,7 +6,7 @@
           embeddedservice_bootstrap.settings.language = 'en_US';
 window.addEventListener("onEmbeddedMessagingReady", () => {            
 	console.log( "Inside Prechat API!!" );
-	embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "Order_Number" : window.location.href } );
+	embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "pageUrl" : window.location.href } );
 });
           
 
