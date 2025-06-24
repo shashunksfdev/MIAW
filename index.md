@@ -1,3 +1,5 @@
+<html>
+<body>
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
@@ -8,7 +10,6 @@ window.addEventListener("onEmbeddedMessagingReady", () => {
 	
 	});
 
-			
 			embeddedservice_bootstrap.init(
 				'00DVE000000QejN',
 				'SupportHub_Chat_Support',
@@ -23,3 +24,5 @@ window.addEventListener("onEmbeddedMessagingReady", () => {
 	};
 </script>
 <script type='text/javascript' src='https://bunn--qa.sandbox.my.site.com/ESWSupportHubChatSuppor1750722700075/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+</body>
+</html>
