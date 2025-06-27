@@ -9,7 +9,6 @@ window.addEventListener("onEmbeddedMessagingReady", () => {
 	 embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "pageUrl" : window.location.href } ); 
 	
 	});
-            embeddedservice_bootstrap.settings.headerText = "BUNN Support";
 
 			embeddedservice_bootstrap.init(
 				'00DVE000000QejN',
