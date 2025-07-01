@@ -4,6 +4,12 @@
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+embedded_svc.settings.displayStyleParams = {
+
+    fontSize: "16px"
+
+};
+
 
 			embeddedservice_bootstrap.init(
 				'00DVE000000QejN',
