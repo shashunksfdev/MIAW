@@ -4,11 +4,7 @@
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
-window.addEventListener("onEmbeddedMessagingReady", () => { 
-	console.log( "Inside Prechat API!!" ); 
-	 embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "pageUrl" : window.location.href } ); 
-	
-	});
+
  embedded_svc.settings.displayStyleParams = {
 
     fontSize: "16px"
