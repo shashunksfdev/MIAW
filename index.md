@@ -1,3 +1,6 @@
+<body>
+<html>
+
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
@@ -26,3 +29,6 @@ embedded_svc.settings.displayStyleParams = {
 	};
 </script>
 <script type='text/javascript' src='https://bunn--qa.sandbox.my.site.com/ESWGitHubChatSupport1750717571736/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
+</body>
+</html>
