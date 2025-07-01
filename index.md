@@ -1,3 +1,5 @@
+<html>
+<body>
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
@@ -17,3 +19,5 @@
 	};
 </script>
 <script type='text/javascript' src='https://bunn.my.site.com/ESWCustomerChatSupport1751329774880/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+</body>
+</html>
