@@ -9,13 +9,7 @@ window.addEventListener("onEmbeddedMessagingReady", () => {
 	 embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "pageUrl" : window.location.href } ); 
 	
 	});
- embedded_svc.settings.displayStyleParams = {
-
-    fontSize: "16px"
-
-};
-
-			embeddedservice_bootstrap.init(
+ 	embeddedservice_bootstrap.init(
 				'00DVE000000QejN',
 				'GitHub_Chat_Support',
 				'https://bunn--qa.sandbox.my.site.com/ESWGitHubChatSupport1750717571736',
