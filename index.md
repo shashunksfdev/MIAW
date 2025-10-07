@@ -12,7 +12,7 @@ window.addEventListener("onEmbeddedMessagingReady", () => {
 	});
 			embeddedservice_bootstrap.init(
 				'00DTI000004bSHZ',
-				'Chat_Support_QA',
+				'Customer_Chat_Support_Hub',
 				'https://bunn--qa.sandbox.my.site.com/ESWChatSupportQA1752022616707',
 				{
 					scrt2URL: 'https://bunn--qa.sandbox.my.salesforce-scrt.com'
