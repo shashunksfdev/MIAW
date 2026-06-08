@@ -15,7 +15,7 @@
     .location
     .href
     .split("/")
-    .pop();
+    .pop(); 
 
   // Tracking scripts
   const trackingScripts = document.createElement("script");
