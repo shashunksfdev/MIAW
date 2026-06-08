@@ -11,9 +11,9 @@ window.addEventListener("onEmbeddedMessagingReady", () => {
 	
 	});
 			embeddedservice_bootstrap.init(
-				'00DTI000004bSHZ',
+				'00DVD00000E9E5J',
 				'Chat_Support_QA',
-				'https://bunn--qa.sandbox.my.site.com/ESWChatSupportQA1752022616707',
+				'https://bunn--qa.sandbox.my.site.com/ESWChatSupportQA1780937608226',
 				{
 					scrt2URL: 'https://bunn--qa.sandbox.my.salesforce-scrt.com'
 				}
