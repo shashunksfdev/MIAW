@@ -23,7 +23,7 @@ window.addEventListener("onEmbeddedMessagingReady", () => {
 		}
 	};
 </script>
-<script type='text/javascript' src='https://bunn--qa.sandbox.my.site.com/ESWChatSupportQA1752022616707/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://bunn--qa.sandbox.my.site.com/ESWChatSupportQA1780937608226/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 </body>
 </html>
