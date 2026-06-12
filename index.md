@@ -7,11 +7,11 @@
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
 			embeddedservice_bootstrap.init(
-				'00DE0000000ZmR2',
-				'Customer_Support',
-				'https://bunn.my.site.com/ESWCustomerSupport1750701273229',
+				'00DVD00000E9E5J',
+				'Chat_Support_QA',
+				'https://bunn--qa.sandbox.my.site.com/ESWChatSupportQA1780937608226',
 				{
-					scrt2URL: 'https://bunn.my.salesforce-scrt.com'
+					scrt2URL: 'https://bunn--qa.sandbox.my.salesforce-scrt.com'
 				}
 			);
 		} catch (err) {
@@ -19,6 +19,6 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://bunn.my.site.com/ESWCustomerSupport1750701273229/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://bunn--qa.sandbox.my.site.com/ESWChatSupportQA1780937608226/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 </body>
 </html>
